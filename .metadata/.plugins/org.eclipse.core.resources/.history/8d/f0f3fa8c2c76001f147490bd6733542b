@@ -1,0 +1,5 @@
+package springbootboard.member.controller;
+
+public class MemberController {
+
+}

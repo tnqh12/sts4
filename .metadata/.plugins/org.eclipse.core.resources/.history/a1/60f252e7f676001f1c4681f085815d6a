@@ -1,0 +1,21 @@
+package springbootboard.exception.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import springbootboard.exception.BoardNotFoundException;
+
+@Controller
+public class ExcetionController {
+
+	
+	@RequestMapping("/exception/boardException")
+	public String boardException() {
+		throw new BoardNotFoundException("검색된 게시물이 없습니다");
+	}
+	
+	@RequestMapping("/exception/illegalArgumentException")
+	public String illegalArgumentException() {
+		throw new IllegalArgumentException("검색된 게시물이 없습니다");
+	}
+}

@@ -1,0 +1,5 @@
+package springbootboard.exception;
+
+public class BoardException {
+
+}

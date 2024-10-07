@@ -1,0 +1,5 @@
+package springbootboard.board.service;
+
+public interface BoardService {
+
+}

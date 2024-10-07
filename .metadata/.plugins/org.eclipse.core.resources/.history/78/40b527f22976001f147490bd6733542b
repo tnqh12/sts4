@@ -1,0 +1,29 @@
+package springbootboard.member.service.lmpl;
+
+import java.lang.reflect.Member;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import springbootboard.member.service.MemberService;
+
+@Service
+public class MemberServiceImpl implements MemberService {
+	
+	@Autowired
+	private MemberResolver memberRepo;
+	
+
+	@Override
+	public Member getMember(Member member) {
+		Optional<Member>findMember = 
+				memberRepo.findById(member.getId());
+		if (findMember.isPresent()) {
+			return findMember.get();
+		}else {
+			return null;
+		}
+	}
+
+}

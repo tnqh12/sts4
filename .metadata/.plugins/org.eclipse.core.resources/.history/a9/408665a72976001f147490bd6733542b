@@ -1,0 +1,5 @@
+package springbootboard.member.repository;
+
+public interface MemberRepository {
+
+}

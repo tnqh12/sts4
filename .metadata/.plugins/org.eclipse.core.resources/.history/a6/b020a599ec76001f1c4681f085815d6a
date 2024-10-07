@@ -1,0 +1,19 @@
+package springbootboard.board.service;
+
+import java.util.List;
+
+import org.hibernate.sql.Insert;
+
+import springbootboard.board.entity.Board;
+
+public interface BoardService {
+	
+	public abstract List<Board> listBoard();
+	
+	public abstract Board getBoard(Board board, String action);
+	
+	public abstract insertBoard(Board board);
+	public abstract updateBoard(Board board);
+	public abstract deleteBoard(Board board);
+
+}

@@ -1,0 +1,5 @@
+package springbootboard.exception.controller;
+
+public class ExcetionController {
+
+}

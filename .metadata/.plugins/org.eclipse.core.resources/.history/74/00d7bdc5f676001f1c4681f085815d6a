@@ -1,0 +1,14 @@
+package springbootboard.exception.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class ExcetionController {
+
+	
+	@RequestMapping("/exception/boardException")
+	public String boardException() {
+		
+	}
+}

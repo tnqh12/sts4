@@ -1,0 +1,43 @@
+package springbootboard.board.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import springbootboard.board.entity.Board;
+import springbootboard.board.service.BoardService;
+
+@Service
+public class BoardServiceImpl implements BoardService {
+
+	@Override
+	public List<Board> listBoard() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Board getBoard(Board board, String action) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void insertBoard(Board board) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void updateBoard(Board board) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteBoard(Board board) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

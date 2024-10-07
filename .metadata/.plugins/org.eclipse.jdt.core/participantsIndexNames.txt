@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+D:\embeded\sts4_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2873445574.index
+\springbootboard\src\main\java
+D:\embeded\sts4_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4085119144.index
+\StoryCraft\src\main\java
+D:\embeded\sts4_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1368596329.index
+\springbootbasic\src\main\java

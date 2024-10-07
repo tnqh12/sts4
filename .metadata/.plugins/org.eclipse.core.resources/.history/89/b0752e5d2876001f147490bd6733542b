@@ -1,0 +1,15 @@
+package springbootboard.member.service.lmpl;
+
+import java.lang.reflect.Member;
+
+import springbootboard.member.service.MemberService;
+
+public class MemberServiceImpl implements MemberService {
+
+	@Override
+	public Member getMember(Member member) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
